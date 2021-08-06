@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React__shop/static/css/main.b66e99d1.chunk.css",
-    "main.js": "/React__shop/static/js/main.8c8ce0ba.chunk.js",
-    "main.js.map": "/React__shop/static/js/main.8c8ce0ba.chunk.js.map",
-    "runtime-main.js": "/React__shop/static/js/runtime-main.b196babc.js",
-    "runtime-main.js.map": "/React__shop/static/js/runtime-main.b196babc.js.map",
+    "main.css": "/React__shop/static/css/main.d7eeac18.chunk.css",
+    "main.js": "/React__shop/static/js/main.649d411f.chunk.js",
+    "main.js.map": "/React__shop/static/js/main.649d411f.chunk.js.map",
+    "runtime-main.js": "/React__shop/static/js/runtime-main.b20efa1b.js",
+    "runtime-main.js.map": "/React__shop/static/js/runtime-main.b20efa1b.js.map",
     "static/css/2.4bd79e09.chunk.css": "/React__shop/static/css/2.4bd79e09.chunk.css",
-    "static/js/2.798786cd.chunk.js": "/React__shop/static/js/2.798786cd.chunk.js",
-    "static/js/2.798786cd.chunk.js.map": "/React__shop/static/js/2.798786cd.chunk.js.map",
-    "static/js/3.76db1dd7.chunk.js": "/React__shop/static/js/3.76db1dd7.chunk.js",
-    "static/js/3.76db1dd7.chunk.js.map": "/React__shop/static/js/3.76db1dd7.chunk.js.map",
+    "static/js/2.17c27802.chunk.js": "/React__shop/static/js/2.17c27802.chunk.js",
+    "static/js/2.17c27802.chunk.js.map": "/React__shop/static/js/2.17c27802.chunk.js.map",
+    "static/js/3.b9b87ae2.chunk.js": "/React__shop/static/js/3.b9b87ae2.chunk.js",
+    "static/js/3.b9b87ae2.chunk.js.map": "/React__shop/static/js/3.b9b87ae2.chunk.js.map",
     "index.html": "/React__shop/index.html",
     "static/css/2.4bd79e09.chunk.css.map": "/React__shop/static/css/2.4bd79e09.chunk.css.map",
-    "static/css/main.b66e99d1.chunk.css.map": "/React__shop/static/css/main.b66e99d1.chunk.css.map",
-    "static/js/2.798786cd.chunk.js.LICENSE.txt": "/React__shop/static/js/2.798786cd.chunk.js.LICENSE.txt",
+    "static/css/main.d7eeac18.chunk.css.map": "/React__shop/static/css/main.d7eeac18.chunk.css.map",
+    "static/js/2.17c27802.chunk.js.LICENSE.txt": "/React__shop/static/js/2.17c27802.chunk.js.LICENSE.txt",
     "static/media/SliderCards.scss": "/React__shop/static/media/Staatliches-Regular.ea07f19f.woff2",
     "static/media/RF.b3ec5cdb.svg": "/React__shop/static/media/RF.b3ec5cdb.svg",
     "static/media/Rectangle 17.1.70507015.svg": "/React__shop/static/media/Rectangle 17.1.70507015.svg",
@@ -51,13 +51,14 @@
     "static/media/navigator.038b6665.svg": "/React__shop/static/media/navigator.038b6665.svg",
     "static/media/person.95b79df7.svg": "/React__shop/static/media/person.95b79df7.svg",
     "static/media/recordPlayer.02686ef9.svg": "/React__shop/static/media/recordPlayer.02686ef9.svg",
-    "static/media/suit.76a7c7ae.svg": "/React__shop/static/media/suit.76a7c7ae.svg"
+    "static/media/suit.76a7c7ae.svg": "/React__shop/static/media/suit.76a7c7ae.svg",
+    "static/media/FooterInfo.module.scss": "/React__shop/static/media/turn off.cf43c53e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b196babc.js",
+    "static/js/runtime-main.b20efa1b.js",
     "static/css/2.4bd79e09.chunk.css",
-    "static/js/2.798786cd.chunk.js",
-    "static/css/main.b66e99d1.chunk.css",
-    "static/js/main.8c8ce0ba.chunk.js"
+    "static/js/2.17c27802.chunk.js",
+    "static/css/main.d7eeac18.chunk.css",
+    "static/js/main.649d411f.chunk.js"
   ]
 }
