@@ -20,8 +20,8 @@ const Options = () => {
 			<div className={s.menu}>
 				<MenuSorting
 					type="checkbox"
-					id="lebe1"
-					for="lebe1"
+					id="labe1"
+					for="labe1"
 					labelvalue="Наличие"
 					RadioBatton0={data[0]}
 					RadioBatton1={data[1]}

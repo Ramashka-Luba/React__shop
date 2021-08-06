@@ -6,11 +6,12 @@ import youtubeLogo from "./../../../assets/images/footerSocial/youtube 1.png";
 
 // components
 import s from "./Footer.module.scss"
+import FooterInfo from "../../common/footerInfo/FooterInfo";
 
 function Footer() {
 	return (
 		<footer className={s.footer}>
-
+<div className={s.container}>
 			<div className={s.top}>
 				<div className={s.mail}>
 					<h4 className={s.titleEmail}>Подпишитесь на нашу рассылку и узнавайте о акциях быстрее</h4>
@@ -20,7 +21,6 @@ function Footer() {
 					</form>
 				</div>
 
-				<div className={s.box1}>
 					<div className={s.informationBox}>
 						<h4 className={s.title}>Информация</h4>
 						<ul className={s.list}>
@@ -40,6 +40,26 @@ function Footer() {
 							<li className={s.item}><a className={s.link} href={"#"}>Новости</a></li>
 						</ul>
 					</div>
+
+				<div className={s.boxMedia}>
+                        <FooterInfo label="Информация"
+									id="label"
+									for="label"
+									href="#"
+									item1="О компании"
+									item2="Контакты"
+									item3="Акции"
+									item4="Магазины"
+						/>
+						<FooterInfo label="Интернет-магазин"
+									id="label1"
+									for="label1"
+									href="#"
+									item1="Доставка и самовывоз"
+									item2="Оплата"
+									item3="Возврат-обмен"
+									item4="Новости"
+						/>
 				</div>
 
 				<div className={s.social}>
@@ -59,10 +79,12 @@ function Footer() {
 
 			</div>
 			<div className={s.bottom}>
+				
 				<small className={s.bottomOffen}>
 					<a className={s.offer} href={"#"}> Договор оферты</a>
 					<a className={s.offer} href={"#"}> Политика обработки персональных данных</a>
 				</small>
+			</div>
 			</div>
 		</footer>
 	);

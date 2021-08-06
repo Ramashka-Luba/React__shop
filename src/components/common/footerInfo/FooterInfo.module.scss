@@ -1,0 +1,59 @@
+@import "./../../../scss/abstracts/variable/variable";
+@import "./../../../scss/base/fonts";
+@import "./../../../scss/abstracts/mixins/mixins";
+
+.footerInfo {
+    padding: 15px 0;
+    border-bottom: 2px solid #cccbcb;
+    max-width: 290px;
+    width: 100%;  
+}
+
+
+.menuLabel {
+    font-family: $SfProBold;
+    @include text (14px, 500, 18px);
+    color:#7F7F7F;
+    letter-spacing: -0.4px;
+
+    position: relative;
+}
+.menuLabel::after {
+    content: "";
+    display: block;
+    background-image: url("./../../../assets/images/footerSocial/turn\ off.svg");
+    width: 11px;
+    height: 7px;
+
+    position: absolute;
+    top: 50%;
+    left: 275px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.menuContent {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5 s ease;
+}
+.menuInput {
+    display: none;
+}
+.menuInput:checked ~ .menuContent {
+    margin-top: 10px;
+    height: auto;
+    overflow-y: auto;
+}
+.menuInput:checked + .menuLabel::after{
+    transform: rotate(180deg);
+}
+.link {
+    font-family: $SFProRegular;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    color:#7F7F7F;
+    &:hover {
+        color:darken(#7F7F7F,20%);
+    }
+}
