@@ -4,14 +4,14 @@ function Data(text, href) {
 }
 
 export const data = [
-	new Data('Квадроциклы', './1'),
-	new Data('Гидроциклы', './2'),
-	new Data('Катера', './3'),
-	new Data('Вездеходы', './4'),
-	new Data('Снегоходы', './5'),
-	new Data('Двигатели', './6'),
-	new Data('Запчасти', './7'),
-	new Data('О товаре', './8'),
+	new Data('Квадроциклы', './PageCatalog'),
+	new Data('Гидроциклы', './PageCatalog'),
+	new Data('Катера', './PageCatalog'),
+	new Data('Вездеходы', './PageCatalog'),
+	new Data('Снегоходы', './PageCatalog'),
+	new Data('Двигатели', './PageCatalog'),
+	new Data('Запчасти', './PageCatalog'),
+	new Data('О товаре', './PageCatalog'),
 
 	new Data('Характеристики', './9'),
 	new Data('Отзывы', './10'),

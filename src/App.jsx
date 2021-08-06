@@ -12,11 +12,12 @@ function App() {
 		<BrowserRouter>
 			<div className="container">
 				<Header style={{ padding: "55px 0 45px 0" }} />
+				
 
-				<Route exact path='/' component={PageMain}/>
+				<Route exact path='/React__shop' component={PageMain}/>
 				<Route path='/PageCatalog' component={PageCatalog}/>
 				<Route path='/PageProduct' component={PageProduct}/>
-				{/* <PageMain /> */}
+				{/* <PageMain/> */}
 				{/* <PageCatalog /> */}
 				{/* <PageProduct /> */}
 			</div>

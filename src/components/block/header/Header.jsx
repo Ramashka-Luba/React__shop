@@ -26,7 +26,7 @@ const Header = (props) => {
 							<li className={s.item}>
 								<NavLink
 									className={s.text}
-									to={"/"}
+									to={"/React__shop"}
 								>
 									Магазины
 								</NavLink>
@@ -35,7 +35,7 @@ const Header = (props) => {
 							<li className={s.item}>
 								<NavLink
 									className={s.text}
-									to={"#"}
+									to={"/PageCatalog"}
 								>
 									Акции
 								</NavLink>
