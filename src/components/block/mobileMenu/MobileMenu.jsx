@@ -40,7 +40,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/React__shop"}
 					>
 						Магазины
 					</NavLink>
@@ -48,7 +48,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Акции
 					</NavLink>
@@ -56,7 +56,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageProduct"}
 					>
 						Доставка и оплата
 					</NavLink>
@@ -64,7 +64,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Квадроциклы
 					</NavLink>
@@ -72,7 +72,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Катера
 					</NavLink>
@@ -80,7 +80,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Гидроциклы
 					</NavLink>
@@ -88,7 +88,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Лодки
 					</NavLink>
@@ -96,7 +96,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Вездеходы
 					</NavLink>
@@ -104,7 +104,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Снегоходы
 					</NavLink>
@@ -112,7 +112,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Двигатели
 					</NavLink>
@@ -120,7 +120,7 @@ const MobileMenu = ({active, setActive}) => {
 				<li className={s.item}>
 					<NavLink
 						className={s.link}
-						to={"/"}
+						to={"/PageCatalog"}
 					>
 						Запчасти
 					</NavLink>

@@ -8,6 +8,8 @@ import Options from "../../block/options/Options";
 import ProductCategory from "../../block/productCategory/ProductCategory";
 import Catalog from "../../block/catalog/Catalog";
 import data from "./../../block/breadCrumbs/crumb/data"
+import PaginationRounded from "../../common/pagination/Pagination";
+
 
 
 const PageCatalog = () => {
@@ -31,6 +33,11 @@ console.log(data);
 
 				{/* ************ Правый блок *************** */}
 				<Catalog/>
+			</div>
+
+				{/* ************ Пагинация *************** */}
+			<div className={s.pagination}>
+				<PaginationRounded/>
 			</div>
 
 

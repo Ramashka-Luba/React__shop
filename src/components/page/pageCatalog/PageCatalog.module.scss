@@ -4,7 +4,6 @@
 @import "./../../../scss/base/fonts";
 
 .pageCatalog {
-    border: 1px solid red;
 }
 
 .wrapper {
@@ -14,3 +13,8 @@
 	}
 }
 
+.pagination {
+	margin: 70px 0 95px;
+	display:flex;
+	justify-content: center;
+}

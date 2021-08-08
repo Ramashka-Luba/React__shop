@@ -11,15 +11,16 @@ import FooterInfo from "../../common/footerInfo/FooterInfo";
 function Footer() {
 	return (
 		<footer className={s.footer}>
-<div className={s.container}>
-			<div className={s.top}>
-				<div className={s.mail}>
-					<h4 className={s.titleEmail}>Подпишитесь на нашу рассылку и узнавайте о акциях быстрее</h4>
-					<form className={s.form}>
-						<input className={s.email} placeholder="Введите ваш e-mail:" />
-						<button className={s.btn}>Отправить</button>
-					</form>
-				</div>
+			<div className={s.container}>
+				<div className={s.top}>
+
+					<div className={s.mail}>
+						<h4 className={s.titleEmail}>Подпишитесь на нашу рассылку и узнавайте о акциях быстрее</h4>
+						<form className={s.form}>
+							<input className={s.email} placeholder="Введите ваш e-mail:" />
+							<button className={s.btn}>Отправить</button>
+						</form>
+					</div>
 
 					<div className={s.informationBox}>
 						<h4 className={s.title}>Информация</h4>
@@ -41,50 +42,50 @@ function Footer() {
 						</ul>
 					</div>
 
-				<div className={s.boxMedia}>
-                        <FooterInfo label="Информация"
-									id="label"
-									for="label"
-									href="#"
-									item1="О компании"
-									item2="Контакты"
-									item3="Акции"
-									item4="Магазины"
+					<div className={s.boxMedia}>
+						<FooterInfo label="Информация"
+							id="label"
+							for="label"
+							href="#"
+							item1="О компании"
+							item2="Контакты"
+							item3="Акции"
+							item4="Магазины"
 						/>
 						<FooterInfo label="Интернет-магазин"
-									id="label1"
-									for="label1"
-									href="#"
-									item1="Доставка и самовывоз"
-									item2="Оплата"
-									item3="Возврат-обмен"
-									item4="Новости"
+							id="label1"
+							for="label1"
+							href="#"
+							item1="Доставка и самовывоз"
+							item2="Оплата"
+							item3="Возврат-обмен"
+							item4="Новости"
 						/>
-				</div>
+					</div>
 
-				<div className={s.social}>
-					<a className={s.socialLink} href="#">
-						<img className={s.icon} src={instagramLogo} alt={"instagramLogo"}/>
-					</a>
-					<a className={s.socialLink} href="#">
-						<img className={s.icon} src={vkLogo} alt={"vkLogo"}/>
-					</a>
-					<a className={s.socialLink} href="#">
-						<img className={s.icon} src={facebookLogo} alt={"facebookLogo"}/>
-					</a>
-					<a className={s.socialLink} href="#">
-						<img className={s.icon} src={youtubeLogo} alt={"youtubeLogo"}/>
-					</a>
-				</div>
+					<div className={s.social}>
+						<a className={s.socialLink} href="#">
+							<img className={s.icon} src={instagramLogo} alt={"instagramLogo"} />
+						</a>
+						<a className={s.socialLink} href="#">
+							<img className={s.icon} src={vkLogo} alt={"vkLogo"} />
+						</a>
+						<a className={s.socialLink} href="#">
+							<img className={s.icon} src={facebookLogo} alt={"facebookLogo"} />
+						</a>
+						<a className={s.socialLink} href="#">
+							<img className={s.icon} src={youtubeLogo} alt={"youtubeLogo"} />
+						</a>
+					</div>
 
-			</div>
-			<div className={s.bottom}>
-				
-				<small className={s.bottomOffen}>
-					<a className={s.offer} href={"#"}> Договор оферты</a>
-					<a className={s.offer} href={"#"}> Политика обработки персональных данных</a>
-				</small>
-			</div>
+				</div>
+				<div className={s.bottom}>
+
+					<small className={s.bottomOffen}>
+						<a className={s.offer} href={"#"}> Договор оферты</a>
+						<a className={s.offer} href={"#"}> Политика обработки персональных данных</a>
+					</small>
+				</div>
 			</div>
 		</footer>
 	);

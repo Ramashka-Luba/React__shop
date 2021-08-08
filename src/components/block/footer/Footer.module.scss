@@ -18,7 +18,7 @@
             justify-content: space-between;
             padding: 43px 0 46px;
 
-            @media screen and(max-width:320px) {
+            @media screen and(max-width:900px) {
                 flex-direction: column;
                 align-items: center;
             }
@@ -33,7 +33,7 @@
                     color: $main-color;
                     letter-spacing: -0.4px;
 
-                    @media screen and(max-width:320px) {
+                    @media screen and(max-width:900px) {
                         text-align: center;
                         margin: 0 auto 20px;
                     }
@@ -71,76 +71,79 @@
                     }
                 }
             }
-                .informationBox {
-                    @media screen and(max-width:320px) {
-                        display: none;
-                    }
-                    .title {
-                        font-family: $SfProBold;
-                        font-size: 14px;
-                        color: $main-color;
-                        line-height: 1.5;
-                        letter-spacing: -0.4px;
-                    }
 
-                    .list {
-                        font-family: $SFProRegular;
-                        font-size: 14px;
-                        line-height: 1.5;
-                        letter-spacing: -0.4px;
+            .informationBox {
+                @media screen and(max-width:1000px) {
+                    display: none;
+                }
 
-                        .item {
-                            &:hover {
-                                transform: scale(1.1);
-                            }
+                .title {
+                    font-family: $SfProBold;
+                    font-size: 14px;
+                    color: $main-color;
+                    line-height: 1.5;
+                    letter-spacing: -0.4px;
+                }
 
-                            .link {
-                                color: $main-color;
-                            }
+                .list {
+                    font-family: $SFProRegular;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    letter-spacing: -0.4px;
+
+                    .item {
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+
+                        .link {
+                            color: $main-color;
                         }
                     }
                 }
+            }
 
-                .shopBox {
-                    @media screen and(max-width:320px) {
-                        display: none;
-                    }
-                    .title {
-                        font-family: $SfProBold;
-                        font-size: 14px;
-                        color: $main-color;
-                        line-height: 1.5;
-                        letter-spacing: -0.4px;
-                    }
+            .shopBox {
+                @media screen and(max-width:1000px) {
+                    display: none;
+                }
 
-                    .list {
-                        font-family: $SFProRegular;
-                        font-size: 14px;
-                        line-height: 1.5;
-                        letter-spacing: -0.4px;
+                .title {
+                    font-family: $SfProBold;
+                    font-size: 14px;
+                    color: $main-color;
+                    line-height: 1.5;
+                    letter-spacing: -0.4px;
+                }
 
-                        .item {
-                            &:hover {
-                                transform: scale(1.1);
-                            }
+                .list {
+                    font-family: $SFProRegular;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    letter-spacing: -0.4px;
 
-                            .link {
-                                color: $main-color;
-                            }
+                    .item {
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+
+                        .link {
+                            color: $main-color;
                         }
                     }
-
+                }
             }
 
             .boxMedia {
                 display: none;
-                width: 100%;
+                width: 290px;
                 margin-bottom: 40px;
 
-                @media screen and(max-width:320px) {
+                @media screen and(max-width:1000px) {
                     display: block;
                 }
             }
+
 
             .social {
                 display: flex;
@@ -171,6 +174,10 @@
             .bottomOffen {
                 transform: translateX(51px);
                 display: flex;
+                @media screen and(max-width:900px) {
+                    flex-direction: column;
+                    transform: translateX(0);
+                }
 
                 .offer {
                     font-family: $SFProRegular;
@@ -183,6 +190,10 @@
 
                     &:first-child {
                         margin-right: 81px;
+                        @media screen and(max-width:900px) {
+                            margin-right: 0;
+                            margin-bottom: 10px;
+                        }
                     }
                 }
             }
