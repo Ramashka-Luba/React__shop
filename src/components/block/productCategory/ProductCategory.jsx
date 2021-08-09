@@ -20,7 +20,7 @@ const ProductCategory = () => {
                         <a className={s.productCategoryLink} href="#">BR</a>
                     </li>
                     <li slassName={s.productCategoryItem}>
-                        <a className={s.productCategoryLink} href="#">ещ</a>
+                        <a className={s.productCategoryLink} href="#">еще</a>
                     </li>
                 </ul>
 

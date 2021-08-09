@@ -7,6 +7,10 @@
 .options {
     max-width: 290px;
     width: 100%;
+    margin-right: 5px;
+    // @media screen and(max-width:1195px) {
+	// 	max-width: 250px;
+	// }
 	@media screen and(max-width:992px) {
 		display: none;
 	}
@@ -24,6 +28,9 @@
     box-sizing: border-box;
     border-bottom: 2px solid $sub-color;
     text-transform: uppercase;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 .btntitleBrand {
     @include font4(16px, 1.5, $SfProBold, $cardSpan);

@@ -6,16 +6,21 @@ const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             // marginTop: theme.spacing(2),
+            fontSize: '50px',
         },
     },
 }));
 
+const style = {
+    fontSize: '50px',
+    
+  };
 export default function PaginationRounded() {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <Pagination count={10} shape="rounded" size="large"/>
+            <Pagination style={style} count={10} shape="rounded"/>
         </div>
     );
 }

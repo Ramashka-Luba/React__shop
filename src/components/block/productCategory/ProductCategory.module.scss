@@ -3,7 +3,6 @@
 @import "./../../../scss/abstracts/mixins/mixins";
 @import "./../../../scss/base/fonts";
 
-
 .title {
     @include font4(30px, 1.5, $SFProSemibold, $main-color);
     margin: 41px 0 26px 0;
@@ -11,16 +10,31 @@
 
 // ************** Левая часть **************//
 .productCategory {
+    
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    align-items: center;
+    @media screen and(max-width: 750px) {
+		flex-direction: column-reverse;
+        align-items: flex-start;
+        max-width: 565px;
+        width: 100%;
+        margin: 0 auto 50px;
+	}
 }
 .productCategoryLef {
     display: flex;
+    @media screen and(max-width: 750px) {
+		margin-top: 20px;
+        flex-wrap: wrap;
+	}
+    
 }
 .productCategoryLink {
+    display: inline-block;
     background-color:  #F0F0F4;
-    margin-right: 10px;
+    margin: 5px;
     padding: 4px 23px;
     @include font4(14px,1.5,$SFProRegular,$main-color);
 }

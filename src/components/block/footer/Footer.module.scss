@@ -146,9 +146,10 @@
 
 
             .social {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                margin-top: 40px;
+                @media screen and(max-width:900px) {
+                    margin-top: 0;
+                }
 
                 .socialLink {
                     margin-right: 30px;
@@ -185,7 +186,7 @@
                     color: $main-color;
 
                     &:hover {
-                        color: darken(#2F3035, 10%);
+                        color: darken(#2F3035, 20%);
                     }
 
                     &:first-child {
