@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React__shop/static/css/main.8a5563d6.chunk.css",
-    "main.js": "/React__shop/static/js/main.fcd7f267.chunk.js",
-    "main.js.map": "/React__shop/static/js/main.fcd7f267.chunk.js.map",
+    "main.css": "/React__shop/static/css/main.d72dc7a4.chunk.css",
+    "main.js": "/React__shop/static/js/main.52e1be2e.chunk.js",
+    "main.js.map": "/React__shop/static/js/main.52e1be2e.chunk.js.map",
     "runtime-main.js": "/React__shop/static/js/runtime-main.eaa444eb.js",
     "runtime-main.js.map": "/React__shop/static/js/runtime-main.eaa444eb.js.map",
     "static/css/2.4bd79e09.chunk.css": "/React__shop/static/css/2.4bd79e09.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.49e95bf0.chunk.js.map": "/React__shop/static/js/3.49e95bf0.chunk.js.map",
     "index.html": "/React__shop/index.html",
     "static/css/2.4bd79e09.chunk.css.map": "/React__shop/static/css/2.4bd79e09.chunk.css.map",
-    "static/css/main.8a5563d6.chunk.css.map": "/React__shop/static/css/main.8a5563d6.chunk.css.map",
+    "static/css/main.d72dc7a4.chunk.css.map": "/React__shop/static/css/main.d72dc7a4.chunk.css.map",
     "static/js/2.f3aad5f2.chunk.js.LICENSE.txt": "/React__shop/static/js/2.f3aad5f2.chunk.js.LICENSE.txt",
     "static/media/SliderCards.scss": "/React__shop/static/media/Staatliches-Regular.ea07f19f.woff2",
     "static/media/RF.b3ec5cdb.svg": "/React__shop/static/media/RF.b3ec5cdb.svg",
@@ -58,7 +58,7 @@
     "static/js/runtime-main.eaa444eb.js",
     "static/css/2.4bd79e09.chunk.css",
     "static/js/2.f3aad5f2.chunk.js",
-    "static/css/main.8a5563d6.chunk.css",
-    "static/js/main.fcd7f267.chunk.js"
+    "static/css/main.d72dc7a4.chunk.css",
+    "static/js/main.52e1be2e.chunk.js"
   ]
 }
