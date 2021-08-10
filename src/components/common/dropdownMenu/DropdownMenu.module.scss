@@ -17,7 +17,7 @@
 
 .dropdownText {
     @include font4(16px, 1.2, $SFProSemibold, $main-color);
-    padding: 0 0 10px 25px;
+    padding: 10px;
 }
 
 .dropdown {

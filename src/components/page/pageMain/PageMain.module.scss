@@ -3,17 +3,29 @@
 @import "./../../../scss/abstracts/variable/variable";
 
 .PageMain{
+	
 	.banner{
 		display: flex;
 		justify-content: space-between;
+		.hidden {
+			width: 75%;
+			@media screen and (max-width:992px) {
+				display: none;
+			}
+		}
 	}
 	
 	.Search{
-		margin: 80px 0;
+		margin: 80px 0;	
 		.SearchTop{
 			margin-bottom: 25px;
+			overflow-x: scroll;
+			display: flex;
+			
 			.SearchText{
 				display: inline-block;
+				white-space: nowrap;
+
 				padding:10px 20px;
 			
 				@include font5(20px,24px,$SfProBold,$main-color,center);
@@ -27,59 +39,59 @@
 				}
 			}
 		}
+
+		.SearchInput{
+			position: relative;
+			
+			.input{
+				@include size(100%,50px);
+			
+				@include font2(16px,19px);
+				text-indent: 50px;
+			
+				background: #F0F0F4;
+				border-radius: 3px;
+				@media screen and (max-width:400px) {
+					text-indent: 10px;
+				}
+				
+				&::placeholder{
+					transform: scale(1);
+					transition: transform 500ms ease;
+				}
+				&:focus::placeholder{
+					transform: scale(0);
+				}
+			}
+		
+			.button{
+				@include size(145px,100%);
+			
+				position:absolute;
+				top:0;
+				right: 0;
+			
+				@include font4(14px,17px,$SfProBold,#fff);
+			
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+			
+				border-radius: 3px;
+				background-color:$sub-color;
+			
+				transition:background-color 200ms ease ;
+		
+				&:hover{
+					background-color: transparentize($sub-color, 0.15);
+				}
+			}
+		}
+				
 	}
 
-	.hidden {
-		width: 75%;
-		@media screen and (max-width:992px) {
-			display: none;
-		}
-	}
+
 	
-	.SearchInput{
-		position: relative;
-		
-		.input{
-			@include size(100%,50px);
-		
-			@include font2(16px,19px);
-			text-indent: 50px;
-		
-			background: #F0F0F4;
-			border-radius: 3px;
-			
-			&::placeholder{
-				transform: scale(1);
-				transition: transform 500ms ease;
-			}
-			&:focus::placeholder{
-				transform: scale(0);
-			}
-		}
-	
-		.button{
-			@include size(145px,100%);
-		
-			position:absolute;
-			top:0;
-			right: 0;
-		
-			@include font4(14px,17px,$SfProBold,#fff);
-		
-			letter-spacing: 0.12em;
-			text-transform: uppercase;
-		
-			border-radius: 3px;
-			background-color:$sub-color;
-		
-			transition:background-color 200ms ease ;
-	
-			&:hover{
-				background-color: transparentize($sub-color, 0.15);
-			}
-		}
-	}
-	
+
 	.discount{
 		@extend %flexCenter;
 		min-height: 165px;

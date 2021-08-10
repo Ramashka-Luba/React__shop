@@ -42,7 +42,7 @@ const Options = () => {
 					labelvalue="Цена"
 					RangeSlider={true}
 				/>
-				<DropdownMenu
+				 <DropdownMenu
 					value="Мощность, л.с."
 					valueItem1="90"
 					valueItem2="130"
@@ -109,7 +109,7 @@ const Options = () => {
 					<button className={s.btnSelect}>Выбрать</button>
 					<button className={s.btnSelectDown}>Дополнительные параметры</button>
 					<button className={s.btnSelectReset}>Сбросить фильтр</button>
-				</div>
+				</div> 
 			</div>
 		</div>
 	);

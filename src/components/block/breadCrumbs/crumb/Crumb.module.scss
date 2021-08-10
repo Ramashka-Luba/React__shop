@@ -6,7 +6,7 @@
     color: rgba(196, 196, 196, 1);
     margin-right: 26px;
 
-	 font-family: $SFProRegular;
+	font-family: $SFProRegular;
     font-size: 15px;
     line-height: 1.5;
     letter-spacing: -0.4px;
@@ -23,7 +23,8 @@
     background-image: url("./../../../../assets/images/PageCatalog/BackBraedCrumbs.png");
     position: absolute;
     background-repeat: no-repeat;
-    top: 6px;
-    right: 10px;
+    top: 0;
+    right: -15px;
+    transform: translateY(50%);
     ;
 }

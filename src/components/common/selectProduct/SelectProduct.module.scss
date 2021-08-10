@@ -3,12 +3,15 @@
 @import "./../../../scss/abstracts/elements/elements";
 @import "./../../../scss/base/fonts";
 
+.sliderHeader {
+    width: 100%;
+}
+
 .wrapper {
     margin: 19px 0 42px;
-    // width: 1172px;
-	// left: 375px;
     display: flex;
-    justify-content: flex-start;
+    overflow-x: scroll;
+
 }
 .title {
 @include font4(25px,30px,$Barlow,$main-color);
@@ -20,6 +23,7 @@ letter-spacing: 0em;
     display: flex;
     flex-direction: row;
     color: $main-color;
+    
 }
 
 .item {
